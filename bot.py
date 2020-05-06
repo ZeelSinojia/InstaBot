@@ -46,9 +46,7 @@ class InstagramBot:
 
     def followfromfollowers(self, searchuser, follow_range):
         follow_list = self._username_followers(searchuser, follow_range)
-        # for rn in range(follow_range):
-        #     self._follow_user(follow_list[rn])
-        # print("Task completed succesfully")
+        
         print(follow_list, len(follow_list))
 
     def _username_followers(self, searchuser, follow_range):
